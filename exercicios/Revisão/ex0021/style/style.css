@@ -1,0 +1,108 @@
+        @charset "UTF-8";
+
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+        body {
+            display: i;
+            font-family: 'Times New Roman', serif;
+            background-color: #f0f8ffd1;
+        }
+
+        header {
+            font-family: 'Lato', sans-serif;
+            text-shadow: 1px 2px 7px #00000048;
+            background-color: #44b18d;
+            border-radius: 10px;
+            box-shadow: 1px 2px 7px #00000022;
+            color: #ffffff;
+            margin: auto;
+
+        }
+
+        header h1 {
+            padding-top: 1em;
+            text-align: center;
+            margin: auto;
+        }
+
+        nav {
+            background-color: #44b18d;
+            padding: 20px;
+            text-align: left;
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: #ffffff;
+            margin-right: 5px;
+        }
+
+        nav>a:hover {
+            background-color: #f0f8ffd1;
+            box-shadow: 1px 2px 7px #00000022;
+            color: #000000ce;
+            border-radius: 5px;
+        }
+
+        main {
+            display: inline-block;
+            text-align: justify;
+            margin-left: 30px;
+            margin-right: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        article>h2 {
+            font-family: 'Lato', sans-serif;
+            background-image: linear-gradient(to right, #08c08360, transparent);
+            color: #ffffff;
+            text-shadow: 1px 2px 7px #00000022;
+            border-radius: 5px;
+            box-shadow: 1px 2px 7px #0000000d;
+        }
+
+        aside#artigo {
+            background-color: #44b18d40;
+            border-radius: 10px;
+        }
+
+        aside h2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.3em;
+            display: inline-flexbox;
+            color: #0e8761;
+            text-shadow: 1px 2px 7px #00000008;
+            padding-left: 10px;
+        }
+
+        ul li:hover {
+            display: inline-block;
+            background-color: #82dfc0;
+            color: #ffffff;
+            text-shadow: 1px 2px 7px #00000008;
+            border-radius: 4px;
+            box-shadow: 1px 2px 7px #00000008;
+        }
+
+        div {
+            background-color: #000000ef;
+            padding: -1em;
+        }
+
+        div>iframe {
+            width: 550px;
+            height: 315px;
+            margin: 12em;
+        }
+
+        footer {
+            background-color: #100b0dd2;
+            color: #ffffff;
+            padding: 6px;
+            margin: auto;
+            text-align: center;
+            border-radius: 3px;
+        }
