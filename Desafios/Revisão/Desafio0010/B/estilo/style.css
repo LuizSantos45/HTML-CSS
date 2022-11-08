@@ -177,7 +177,8 @@ aside {
 }
 
 aside ul {
-    margin-left: 40px;
+    list-style-position: inside;
+    columns: 2;
 }
 
 footer {
