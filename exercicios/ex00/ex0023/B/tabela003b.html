@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/goescat/macaron/128/file-manager-icon.png" type="image/x-icon">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #faebd77e;
+        }
+
+        h1 {
+            margin: auto;
+            margin-bottom: 30px;
+            background-color: #4fc39597;
+            box-shadow: 2px 4px 3px #0000001b;
+            color: #262424ed;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;   
+            margin: auto;    
+            width: 300px;      
+        }
+
+        td {
+            border: 1px solid #000000;
+            text-align: center;
+            padding: 15px;         
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td colspan="2">M</td>
+        </tr> 
+    </table>
+    
+</body>
+</html>
