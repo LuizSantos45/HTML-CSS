@@ -1,0 +1,98 @@
+        @charset "UTF-8";
+
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+        body {
+            display: i;
+            font-family: 'Times New Roman', serif;
+            background-color: #f0f8ffd1;
+        }
+
+        header {
+            font-family: 'Lato', sans-serif;
+            text-shadow: 1px 2px 7px #00000048;
+            background-image: linear-gradient(to right, #19362cc5, #19362cb7, #19362cc2, #19362cd0 );
+            filter: blur(0.4px);
+            box-shadow: 1px 2px 7px #00000044;
+            color: #ffffff;
+            border-radius: 6px;
+            padding: 30px;
+        }
+
+        header h1 {
+            padding-top: 1em;
+            text-align: center;
+            margin: auto;
+        }
+
+        nav {
+            padding: 20px;
+            text-align: left;
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: #ffffff;
+            margin-right: 5px;
+            font-weight: 700;
+        }
+
+        nav>a:hover {
+            background-color: #f0f8ffd1;
+            box-shadow: 1px 2px 7px #00000022;
+            color: #000000ce;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        main {
+            margin: auto;
+            text-align: justify;
+            max-width: 700px;
+            background-color: #ffffff;
+            box-shadow: 1px 2px 7px #0000002f;
+            border-radius: 0px 0px 10px 10px;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+
+        article>h2 {
+            font-family: 'Lato', sans-serif;
+            background-image: linear-gradient(to right, #19362cc0, #19362cc0, transparent);
+            padding: 4px;
+            color: #ffffff;
+            text-shadow: 1px 2px 7px #00000022;
+            border-radius: 15px;
+            box-shadow: 1px 2px 7px #0000000d;
+        }
+
+        aside#artigo {
+            background-color: #114b381a;
+            box-shadow: 1px 2px 7px #00000022;
+            border-radius: 10px;
+        }
+
+        aside h2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.3em;
+            display: inline-flexbox;
+            color: #121f1b;
+            text-shadow: 1px 2px 7px #00000008;
+            padding-left: 10px;
+        }
+
+        ul li:hover {
+            display: inline-block;
+            background-color: #19362cc0;
+            color: #ffffff;
+            text-shadow: 1px 2px 7px #00000008;
+            border-radius: 4px;
+            box-shadow: 1px 2px 7px #00000008;
+        }
+
+        footer {
+            background-color: #0c0c0cea;
+            color: #ffffff;
+            margin: auto;
+            text-align: center;
+        }
