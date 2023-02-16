@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/bokehlicia/captiva/256/libreoffice-main-icon.png" type="image/x-icon">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eeebeb12;
+            text-align: justify;
+        }
+
+        main  {
+            box-shadow: 2px 4px 7px #0000003b;
+            background-color: #80808020;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            box-shadow: 2px 4px 7px #0000004e;
+            background-color: #000000cf;
+            border-radius: 10px;
+            padding: 10px;
+            color: white;
+        }
+
+        iframe#tela {
+            border: 1px solid #bab9b97b;
+            display: block;
+            height: 400px;
+            margin: auto;
+            max-width: 90vh;
+            width: 84vw;
+        }
+
+        ul {
+            box-shadow: -2px 4px 7px #00000034;
+            background-color: #b0c6e5c9;    
+            list-style-position: inside;
+            list-style-type: none;
+            border-radius: 15px;
+            padding: 10px;
+            width: 140px;
+        }
+
+        a {  
+            text-shadow: 2px 4px 6px #0000000f;
+            box-shadow: 2px 4px 6px #00000028;
+            background-color: #ffffff;           
+            text-decoration: none;
+            border-radius: 10px;
+            color: #000000;
+        }
+
+        li, a {
+            margin-top: 6px;
+            padding: 4px;
+        }
+
+        a:hover {    
+            box-shadow: 2px 4px 6px #0000001a;
+            background-color: #ffffff94;
+            border: 1px solid #00000024;          
+            border-radius: 8px;
+            padding: 4px;     
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Faça uma escolha</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus porro sequi cum nemo aliquam libero temporibus harum animi voluptatibus, ullam, odit labore accusantium ducimus! Natus deserunt provident sed quos labore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum est error, neque illo temporibus suscipit iste praesentium accusantium voluptates sequi assumenda perspiciatis minima molestiae excepturi, tempora mollitia nostrum, explicabo nulla.</p>
+        <ul>
+            <li><a href="../paginas-extras/pagina001.html" target="frame">Tabela</a></li>
+            <li><a href="../paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+            <li><a href="../paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus porro sequi cum nemo aliquam libero temporibus
+        harum animi voluptatibus, ullam, odit labore accusantium ducimus! Natus deserunt provident sed quos labore! Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Harum est error, neque illo temporibus suscipit iste praesentium
+        accusantium voluptates sequi assumenda perspiciatis minima molestiae excepturi, tempora mollitia nostrum, explicabo
+        nulla.</p>
+        <iframe id="tela" name="frame"></iframe>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus porro sequi cum nemo aliquam libero temporibus
+        harum animi voluptatibus, ullam, odit labore accusantium ducimus! Natus deserunt provident sed quos labore! Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Harum est error, neque illo temporibus suscipit iste praesentium
+        accusantium voluptates sequi assumenda perspiciatis minima molestiae excepturi, tempora mollitia nostrum, explicabo
+        nulla.</p>
+    </main>
+
+</body>
+</html>
