@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/goescat/macaron/128/file-manager-icon.png" type="image/x-icon">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: #a8a7a736;
+        }
+        main {
+            box-shadow: 2px 4px 5px #0000003c;
+            border: 1px solid #44975320;
+            background-color: #6cee84d0;
+            padding: 20px;
+            border-radius: 30px;
+            width: 300px;
+            position: relative;
+            margin: auto;
+            top: calc(200px);
+        }
+
+        h1 {
+            text-shadow: 2px 3px 4px #0000001c;
+            color: #5c20bb9b;
+        }
+
+        #usen, #usu {
+            background-color: #7fccff14;
+            padding: 10px;
+            border: 1px solid #0000004d;
+            border-radius: 8px;
+        }
+
+        #usen, #usu {
+            box-shadow: 2px 4px 5px #0000003c;
+            background-color: #ffffff;
+        }
+
+        ::placeholder {
+            color: #000000df;
+        }
+
+        .button {
+            box-shadow: 2px 4px 5px #0000001d;
+            background-color: #646eca5e;
+            border: 1px solid #00000041;
+            transform: translate(80px);
+            border-radius: 20px;
+            color: #ffffff;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Contate-nos</h1>
+        <form action="../cadastro.php" method="post" autocomplete="on">
+            <p>
+                <input type="text" name="usuario" id="usu" minlength="4" maxlength="15" size="20" placeholder="nome do usuário" autocomplete="username">
+            </p>
+            <p>
+                <input type="password" name="senha" id="usen" minlength="8" maxlength="20" size="20" placeholder="Senha" autocomplete="current-password">
+            </p>
+            <p>
+                <input type="submit" value="Enviar" class="button">
+                <input type="reset" value="Limpar" class="button">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
