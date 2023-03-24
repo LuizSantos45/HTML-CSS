@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/goescat/macaron/128/file-manager-icon.png" type="image/x-icon">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ebebeb2c;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        div#width {
+            box-shadow: 2px 5px 14px #0000004d;
+            border: 1px solid #0000002a;
+            background-color: #c7c7c779;
+            border-radius: 10px;
+            max-width: 400px;
+            padding: 15px;
+            margin: auto;
+        }
+
+        fieldset {
+            box-shadow: 2px 5px 14px #0000004d;
+            background-color: #ffffffe8;
+            border: 1px solid #0000002a;
+            border-radius: 15px;
+            padding: 15px;
+        }
+
+        legend, .button {
+            box-shadow: 2px 1px 8px #00000081;
+            border: 1px solid #0000002c;
+            background-color: #0000008e;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        div.white {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <div  id="width">
+        <form action="../cadastro.php" method="get" autocomplete="on">
+            <fieldset>
+                <legend>Sexo</legend>
+                <div>
+                    <input type="radio" name="sex" id="isexmas" value="H" checked><label for="isexmas">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" name="sex" id="isexfem" value="F"><label for="isexfem">Feminino</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Esportes favoritos</legend>
+                <div>
+                    <div>
+                        <input type="checkbox" name="bas" id="ibas">
+                        <label for="ibas">Basquete</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="fut" id="ifut">
+                        <label for="ifut">Futebol</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="nat" id="inat">
+                        <label for="inat">Natação</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="ten" id="iten">
+                        <label for="iten">Tênis</label>
+                    </div>
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <input type="submit" value="Enviar" class="button">
+                <input type="reset" value="Limpar" class="button">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
