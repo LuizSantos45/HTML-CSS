@@ -6,10 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/goescat/macaron/128/file-manager-icon.png" type="image/x-icon">
     <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #e1e1e138;
+        }
+
+        fieldset {
+            border-radius: 10px;
+            border: 1px solid #00000065;
+            max-width: 400px;
+        }
+        
+        div {
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    
-
+    <form action="../cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados cadastrais</legend>
+            <div>
+                <label for="icor">Cor</label>
+                <input type="color" name="cor" id="icor" value="#ffffff">
+            </div>
+            <div>
+                <label for="isas">Nível de satisfação:</label>
+                <input type="range" name="sas" id="isas" min="1" max="5">
+            </div>
+            <div>
+                <label for="iper">Foto do perfil:</label>
+                <input type="file" name="foto" id="ifoto">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+    </form>
 </body>
 </html>
