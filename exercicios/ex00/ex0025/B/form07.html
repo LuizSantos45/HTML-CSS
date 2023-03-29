@@ -6,30 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/goescat/macaron/128/file-manager-icon.png" type="image/x-icon">
     <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #dddddd1f;
+        }
+
+        div {
+            padding: 5px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            box-shadow: 2px 4px 16px #0000004b;
+            background-color: #c0c0c03a;
+            border-radius: 10px;
+            width: 300px;
+            padding: 10px;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="on">
-        <p>
-            <label for="iest">Estado</label>
-            <select name="estado" id="est">
+    <form action="" method="post" autocomplete="on">
+        <div>
+            <label for="" selected>Estado:</label>
+            <select name="estado" id="iestado">
 
                 <option value="" selected>--- Escolha ---</option>
                 <optgroup label="Região Sudeste">
-                    <option value="SP">São Paulo</option>
                     <option value="MG">Minas Gerais</option>
                     <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
                 </optgroup>
-
                 <optgroup label="Região Nordeste">
                     <option value="MA">Maranhão</option>
-                    <option value="PE">Pernambuco</option>
+                    <option value="PN">Pernambuco</option>
                     <option value="RN">Rio Grande do Norte</option>
                 </optgroup>
             </select>
-        </p>
-
-        <p>
+        </div>
+        <div>
             <label for="iprof">Profissão</label>
             <input type="text" name="Profissão" id="iprof" list="lstprof">
             <datalist id="lstprof">
@@ -38,17 +62,16 @@
                 <option value="DEV">Desenvolvedor</option>
                 <option value="PROF">Professor</option>
             </datalist>
-        </p>
-
-        <p>
-            <label for="imsg">Mensagem:</label><br>
-            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
-        </p>
-
-        <p>
+        </div>
+        <div>
+            <label for="imen">Mensagem:</label><br>
+            <textarea name="Mensagem" id="imen" cols="30" rows="10"></textarea>
+        </div>
+        <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
-        </p>
-    </form> 
+        </div>
+    </form>
+    
 </body>
 </html>
